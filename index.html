@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happiest Birthday Arsh🎂</title>
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background -->
+    <div class="stars"></div>
+    <div id="welcomePopup">
+    <div class="popupCard">
+        <h2>🖤 Welcome, Arsh</h2>
+        <p>
+            This isn't just a website...
+            <br><br>
+            It's a birthday surprise made especially for you.
+        </p>
+        <button onclick="closeWelcome()">Open Surprise ✨</button>
+    </div>
+</div>
+    
+<div class="shooting-stars">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+    <!-- Main Section -->
+    <section class="hero">
+        <button id="musicBtn">🔊 Music On</button>
+        
+        
+        
+        <h3 id="typing"></h3>
+
+        <h1 id="secretTitle">Happy 21st Birthday</h1>
+
+        <h2>Arsh Hussain 🖤</h2>
+
+        <p>7th August</p>
+        
+        <div class="gift-container" id="giftBtn">
+    <div class="gift-box">
+        <div class="lid"></div>
+        <div class="box"></div>
+        <div class="ribbon-vertical"></div>
+        <div class="ribbon-horizontal"></div>
+    </div>
+    <p>Tap the Gift</p>
+</div>
+
+    </section>
+
+    <!-- Hidden Letter -->
+    <section id="letter" class="hidden fade">
+
+        <h2>A Letter For You 💌</h2>
+
+        <p>
+            Dear Arsh,
+
+            Happy 21st Birthday!
+
+            I hope this year brings you peace, happiness, success, and countless reasons to smile.
+            Thank you for being the wonderful person you are.
+
+            May every dream you chase find its way to you, and may this new chapter of your life be filled with unforgettable memories.
+
+            Keep shining, keep believing in yourself, and never stop being you.
+
+            Happy Birthday once again. 🖤
+
+        </p>
+
+   <section class="gallery fade">
+    <h2>Our Memories 📸</h2>
+
+    <div class="gallery-grid">
+        <img src="image/photo1.jpg" alt="Memory 1" open> 
+        <img src="image/photo2.jpg" alt="Memory 2">
+        <img src="image/photo3.jpg" alt="Memory 3" onclick="showEnding()">
+    </div>
+</section>
+   <section class="ending fade">
+    <h2>✨ One Last Thing...</h2>
+
+    <p>
+        Life moves fast, but some people leave a mark that time can never erase.
+        I hope this birthday reminds you how appreciated, valued, and special you truly are.
+    </p>
+
+    <h3>Happy 21st Birthday, Arsh Hussain. 🖤</h3>
+
+    <p class="signature">
+       "Every line of code on this page was written to make you smile. Happy Birthday, Arsh. 🖤"
+    </p>
+</section>
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+    <script src="script.js"></script>
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg">
+</div>
+</body>
+<div id="finalScreen">
+    <h1 id="finalText"></h1>
+    <div id="finalScreen">
+    <h1 id="finalText"></h1>
+    <p id="nextChapter">See you in the next chapter. ✨</p>
+</div>
+</html>
